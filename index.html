@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<!--
+  ════════════════════════════════════════════════════════════════════
+  JASON AGUIRRE GROUP — luxury editorial build, A2P 10DLC–ready
+  ════════════════════════════════════════════════════════════════════
+  BEFORE YOU SUBMIT FOR A2P / GO LIVE — search for "EDIT:"
+   1. BUSINESS NAME must EXACTLY match the legal entity on your A2P EIN
+      (or register "Jason Aguirre Group" as your DBA).
+   2. EMAIL — replace hello@jasonaguirregroup.com everywhere.
+   3. PHOTOS — every home/neighborhood image is an Unsplash PLACEHOLDER
+      (search "unsplash.com" below). Swap the background-image URLs for your
+      own listing/neighborhood photos. If an image ever fails to load, the
+      slot falls back to a solid brand tone — it never shows a broken icon.
+   4. LISTINGS — the 6 featured properties are SAMPLE data. Replace with real
+      listings or wire up your MLS/IDX feed before publishing.
+   5. STATS / SOCIAL LINKS — update with your real figures and profile URLs.
+   6. FORM — client-side only (shows a thank-you). Point it at your GHL form
+      to capture leads. Leave the consent UI exactly as built.
+  ════════════════════════════════════════════════════════════════════
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jason Aguirre Group | Houston Real Estate · First-Time & ITIN Homebuyers</title>
+<meta name="description" content="The Jason Aguirre Group helps Houston families buy and sell — first-time buyers, ITIN borrowers, and credit-rebuilding clients welcome. Bilingual service in English & Español. Brokered by eXp Realty." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231A1714'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='16' fill='%23A98A5C' text-anchor='middle'%3EJ%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html" aria-label="Jason Aguirre Group home">
+      <span class="brand-name">Jason Aguirre Group</span>
+      <span class="brand-sub">eXp Realty · Houston</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#listings">Properties</a>
+      <a href="#about">About</a>
+      <a href="#communities">Communities</a>
+      <a href="#path">The Process</a>
+      <a href="#contact">Contact</a>
+      <a class="tag" href="#contact">Se habla español</a>
+    </nav>
+    <div class="nav-right">
+      <a class="nav-phone" href="tel:+18328086483">(832) 808-6483</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Houston Real Estate · English &amp; Español</span>
+    <h1>Find the home that's <em>finally yours</em>.</h1>
+    <p class="hero-sub">First-time buyer, ITIN borrower, or rebuilding your credit — the Jason Aguirre Group guides Houston families from <em>"I don't think we qualify"</em> all the way to the closing table. Patiently, honestly, in the language you're most comfortable in.</p>
+    <div class="hero-actions">
+      <a class="btn btn-solid-light" href="#contact">Start your search</a>
+      <a class="btn btn-light" href="tel:+18328086483">Call or text Jason</a>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true"><span>Explore</span><span class="line"></span></div>
+</section>
+
+<!-- ============ STATS ============ -->
+<!-- EDIT: swap for your real figures (homes sold, families helped, etc.) if you'd like numbers here -->
+<section class="bg-ink">
+  <div class="wrap" style="padding-block:0;">
+    <div class="stats">
+      <div class="stat"><div class="figure">Since <span class="accent">2018</span></div><div class="label">Licensed REALTOR®</div></div>
+      <div class="stat"><div class="figure">English &amp; <span class="accent">Español</span></div><div class="label">Full Bilingual Service</div></div>
+      <div class="stat"><div class="figure">First-Time &amp; <span class="accent">ITIN</span></div><div class="label">Buyers Welcome</div></div>
+      <div class="stat"><div class="figure"><span class="accent">eXp</span> Realty</div><div class="label">Global Brokerage</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED LISTINGS ============ -->
+<!-- EDIT: SAMPLE listings — replace with real properties or your MLS/IDX feed before going live -->
+<section class="section" id="listings">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Featured Homes</span>
+      <h2>Houston homes, priced for real life</h2>
+      <p class="lede">A look at the kind of homes we help first-time and move-up buyers land across the Houston metro.</p>
+    </div>
+
+    <div class="listings">
+      <article class="listing reveal">
+        <div class="listing-media" style="background-image:url('https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80')">
+          <span class="listing-badge">For Sale</span>
+        </div>
+        <div class="listing-body">
+          <div class="listing-price">$289,000</div>
+          <div class="listing-meta"><span><b>3</b> bd</span><span><b>2</b> ba</span><span><b>1,640</b> sqft</span></div>
+          <div class="listing-addr">12106 Pine Brook Dr<br>Houston, TX 77099</div>
+        </div>
+      </article>
+
+      <article class="listing reveal">
+        <div class="listing-media" style="background-image:url('https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=80')">
+          <span class="listing-badge coming">New</span>
+        </div>
+        <div class="listing-body">
+          <div class="listing-price">$399,900</div>
+          <div class="listing-meta"><span><b>4</b> bd</span><span><b>3</b> ba</span><span><b>2,640</b> sqft</span></div>
+          <div class="listing-addr">21318 Crescent Mill Ln<br>Katy, TX 77449</div>
+        </div>
+      </article>
+
+      <article class="listing reveal">
+        <div class="listing-media" style="background-image:url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80')">
+          <span class="listing-badge">For Sale</span>
+        </div>
+        <div class="listing-body">
+          <div class="listing-price">$245,000</div>
+          <div class="listing-meta"><span><b>3</b> bd</span><span><b>2</b> ba</span><span><b>1,480</b> sqft</span></div>
+          <div class="listing-addr">5610 Antoine Dr<br>Houston, TX 77091</div>
+        </div>
+      </article>
+
+      <article class="listing reveal">
+        <div class="listing-media" style="background-image:url('https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?auto=format&fit=crop&w=800&q=80')">
+          <span class="listing-badge">For Sale</span>
+        </div>
+        <div class="listing-body">
+          <div class="listing-price">$355,000</div>
+          <div class="listing-meta"><span><b>4</b> bd</span><span><b>2.5</b> ba</span><span><b>2,380</b> sqft</span></div>
+          <div class="listing-addr">18707 Cypress Trace Dr<br>Spring, TX 77379</div>
+        </div>
+      </article>
+
+      <article class="listing reveal">
+        <div class="listing-media" style="background-image:url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80')">
+          <span class="listing-badge pending">Pending</span>
+        </div>
+        <div class="listing-body">
+          <div class="listing-price">$269,000</div>
+          <div class="listing-meta"><span><b>3</b> bd</span><span><b>2</b> ba</span><span><b>1,720</b> sqft</span></div>
+          <div class="listing-addr">3902 Glen Arbor Dr<br>Pasadena, TX 77503</div>
+        </div>
+      </article>
+
+      <article class="listing reveal">
+        <div class="listing-media" style="background-image:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80')">
+          <span class="listing-badge">For Sale</span>
+        </div>
+        <div class="listing-body">
+          <div class="listing-price">$315,000</div>
+          <div class="listing-meta"><span><b>4</b> bd</span><span><b>2.5</b> ba</span><span><b>2,210</b> sqft</span></div>
+          <div class="listing-addr">8423 Cypress Springs Ln<br>Cypress, TX 77433</div>
+        </div>
+      </article>
+    </div>
+
+    <div class="listings-cta">
+      <a class="textlink" href="#contact">See what fits your budget <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section bg-ivory" id="about">
+  <div class="wrap split reverse">
+    <div class="split-media tall reveal" style="background-image:url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80')">
+      <div class="tag-float">
+        <div class="q">"Owning your first home shouldn't depend on a perfect score — it should depend on a plan."</div>
+        <div class="by">Jason Aguirre · REALTOR®</div>
+      </div>
+    </div>
+    <div class="split-text reveal">
+      <span class="eyebrow">We Are the Jason Aguirre Group</span>
+      <hr class="rule" />
+      <h2 style="margin-bottom:1.4rem;">Built for the buyers most agents send away</h2>
+      <p>A lot of Houston families have been told they can't own a home — not yet, not with that credit, not without a Social. We hear that story every week, and most of the time it simply isn't true. It just needs someone who knows the path and takes the time to walk it with you.</p>
+      <p>We pair you with lenders who work with ITIN borrowers and first-time programs, build a realistic plan when your credit needs a few months, and never rush you into a payment that keeps you up at night.</p>
+      <p>You work directly with Jason and a small, bilingual team — not a call center. When you text, a real person who knows your file texts back.</p>
+      <a class="btn btn-outline" href="#contact">Let's talk</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">How We Help</span>
+      <h2>Four ways we open the door</h2>
+    </div>
+    <div class="services">
+      <div class="service reveal">
+        <div class="num">i.</div>
+        <h3>First-Time Buyers</h3>
+        <p>Down-payment assistance, first-time programs, and a no-pressure walkthrough of every number before you commit.</p>
+      </div>
+      <div class="service reveal">
+        <div class="num">ii.</div>
+        <h3>ITIN Borrowers</h3>
+        <p>No Social Security number? We connect you with trusted ITIN lenders and handle the process from start to finish.</p>
+      </div>
+      <div class="service reveal">
+        <div class="num">iii.</div>
+        <h3>Credit-Path Clients</h3>
+        <p>Close in a few months, not "someday." We build a realistic credit plan and keep you on track until you qualify.</p>
+      </div>
+      <div class="service reveal">
+        <div class="num">iv.</div>
+        <h3>Selling Your Home</h3>
+        <p>Honest pricing, real marketing, and net-proceeds numbers you can trust — so you keep more at the closing table.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMMUNITIES ============ -->
+<!-- EDIT: replace neighborhood photos with your own -->
+<section class="section bg-sand" id="communities">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Explore the Metro</span>
+      <h2>Communities we know by heart</h2>
+      <p class="lede">From close-in Houston to the growing suburbs, we help buyers and sellers across the neighborhoods we live and work in.</p>
+    </div>
+    <div class="communities">
+      <a class="community reveal" href="#contact" style="background-image:url('https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=700&q=80')">
+        <div class="community-label"><div class="name">Spring</div><div class="meta">77379 · 77386 · 77388</div></div>
+      </a>
+      <a class="community reveal" href="#contact" style="background-image:url('https://images.unsplash.com/photo-1576941089067-2de3c901e126?auto=format&fit=crop&w=700&q=80')">
+        <div class="community-label"><div class="name">Katy</div><div class="meta">77449 · 77450 · 77494</div></div>
+      </a>
+      <a class="community reveal" href="#contact" style="background-image:url('https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=700&q=80')">
+        <div class="community-label"><div class="name">Cypress</div><div class="meta">77429 · 77433</div></div>
+      </a>
+      <a class="community reveal" href="#contact" style="background-image:url('https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=700&q=80')">
+        <div class="community-label"><div class="name">Pearland</div><div class="meta">77581 · 77584</div></div>
+      </a>
+      <a class="community reveal" href="#contact" style="background-image:url('https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=700&q=80')">
+        <div class="community-label"><div class="name">The Woodlands</div><div class="meta">77380 · 77381 · 77382</div></div>
+      </a>
+      <a class="community reveal" href="#contact" style="background-image:url('https://images.unsplash.com/photo-1416331108676-a22ccb276e35?auto=format&fit=crop&w=700&q=80')">
+        <div class="community-label"><div class="name">Humble</div><div class="meta">77338 · 77346 · 77396</div></div>
+      </a>
+    </div>
+    <div class="communities-cta">
+      <a class="textlink" href="#contact">Ask about your neighborhood <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE PROCESS ============ -->
+<section class="section bg-ink" id="path">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow on-dark">The Process</span>
+      <h2 style="color:#fff;">From first call to front-door keys</h2>
+    </div>
+    <div class="path">
+      <div class="step reveal"><div class="pnum">I</div><div class="pdiv"></div><h3>Get Pre-Approved</h3><p>We connect you with the right lender for your situation and find out exactly what you qualify for — free, no obligation.</p></div>
+      <div class="step reveal"><div class="pnum">II</div><div class="pdiv"></div><h3>Find Your Home</h3><p>Tour listings that fit your budget and your life. We're honest about every one — the good and the bad.</p></div>
+      <div class="step reveal"><div class="pnum">III</div><div class="pdiv"></div><h3>Make the Offer</h3><p>We negotiate hard on your behalf and guide you through inspection, appraisal, and paperwork in plain language.</p></div>
+      <div class="step reveal"><div class="pnum">IV</div><div class="pdiv"></div><h3>Get the Keys</h3><p>You close, you sign, and the door is yours. We're still here for whatever comes next as a homeowner.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT + A2P-COMPLIANT OPT-IN FORM
+     Compliance map:
+       • Phone is OPTIONAL; both consent boxes are OPTIONAL and UNCHECKED —
+         none gate form submission (consent is never coerced).
+       • Each checkbox label is its own CTA disclosure. The SMS box carries
+         brand + purpose + frequency + rates + STOP/HELP. NO third-party /
+         "we won't share" language sits inside any checkbox — that lives in
+         the Privacy Policy.
+       • Privacy Policy + Messaging Terms links sit BELOW the form.
+     ============================================================ -->
+<section class="section" id="contact">
+  <div class="wrap contact-grid">
+    <div class="contact-info reveal">
+      <span class="eyebrow">Get in Touch</span>
+      <hr class="rule" />
+      <h2>Tell us where you are — we'll take it from there</h2>
+      <p class="lede" style="margin-top:1.2rem;">Ready to tour homes this weekend, or just wondering if you'd qualify? Send a note. No cost, no pressure, and we answer in English or Spanish.</p>
+      <div class="contact-list">
+        <div class="ci">
+          <div>
+            <div class="lbl">Call or Text</div>
+            <a href="tel:+18328086483">(832) 808-6483</a>
+          </div>
+        </div>
+        <div class="ci">
+          <div>
+            <div class="lbl">Email</div>
+            <!-- EDIT: real email -->
+            <a class="val sm" href="mailto:hello@jasonaguirregroup.com">hello@jasonaguirregroup.com</a>
+          </div>
+        </div>
+        <div class="ci">
+          <div>
+            <div class="lbl">Office</div>
+            <div class="val sm">5373 W Alabama St, Suite 448<br>Houston, TX 77056</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-card reveal">
+      <form id="leadForm" novalidate>
+        <span class="eyebrow form-eyebrow">Leave a Message</span>
+        <h3>Start the conversation</h3>
+        <p class="form-note">Adding your phone is optional — and you decide how we may reach you. We'll never make you opt in to get help.</p>
+
+        <div class="field">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" autocomplete="name" placeholder="Maria Gonzalez" required />
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="you@email.com" required />
+          </div>
+          <div class="field">
+            <label for="phone">Mobile Phone <span class="opt">(optional)</span></label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(832) 555-0123" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="interest">I'm Interested In <span class="opt">(optional)</span></label>
+          <input type="text" id="interest" name="interest" list="interestOptions" placeholder="Buying, selling, renting, or just exploring" />
+          <datalist id="interestOptions">
+            <option value="Buying a home"></option>
+            <option value="Selling a home"></option>
+            <option value="Renting"></option>
+            <option value="Just exploring"></option>
+          </datalist>
+        </div>
+
+        <div class="field">
+          <label for="message">Your Message <span class="opt">(optional)</span></label>
+          <textarea id="message" name="message" placeholder="I'd like to know if I qualify to buy in Spring under $300k…"></textarea>
+        </div>
+
+        <!-- CONSENT: both unchecked & optional; labels are disclosures only -->
+        <div class="consent-block">
+          <div class="consent">
+            <input type="checkbox" id="contactConsent" name="contactConsent" value="yes" />
+            <label for="contactConsent"><span class="lead">Yes — I agree to receive email and phone call communications</span> from Jason Aguirre Group about my real estate inquiry.</label>
+          </div>
+          <div class="consent">
+            <input type="checkbox" id="smsConsent" name="smsConsent" value="yes" />
+            <label for="smsConsent"><span class="lead">Yes — I agree to receive SMS text messages from Jason Aguirre Group</span> about my inquiry, appointment scheduling, and property updates. Msg frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out, HELP for help.</label>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-gold">Send Message</button>
+
+        <!-- Privacy / Terms links live BELOW the form, not inside any checkbox -->
+        <p class="form-fine">By submitting, you agree to our <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Messaging Terms</a>. We respect your privacy and never sell your information.</p>
+      </form>
+
+      <div class="form-success" id="formSuccess" role="status" aria-live="polite">
+        <span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+        <h3>Thank you — message received.</h3>
+        <p>Jason or someone on the team will be in touch shortly. ¡Gracias!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <a class="brand" href="index.html">
+          <span class="brand-name">Jason Aguirre Group</span>
+          <span class="brand-sub">eXp Realty · Houston</span>
+        </a>
+        <p class="footer-blurb">Helping Houston families — first-time buyers, ITIN borrowers, and credit-rebuilding clients — find a home that's truly theirs. En inglés y español.</p>
+        <!-- EDIT: real social URLs -->
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 8h-2a2 2 0 0 0-2 2v12M8 13h6"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M14 4v10.5a3.5 3.5 0 1 1-3-3.46"/><path d="M14 7a4 4 0 0 0 4 4"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="m11 9 4 3-4 3z" fill="currentColor" stroke="none"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#listings">Featured Homes</a>
+        <a href="#about">About</a>
+        <a href="#communities">Communities</a>
+        <a href="#path">The Process</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:+18328086483">(832) 808-6483</a>
+        <!-- EDIT: real email -->
+        <a href="mailto:hello@jasonaguirregroup.com">hello@jasonaguirregroup.com</a>
+        <p>5373 W Alabama St, Suite 448<br>Houston, TX 77056</p>
+      </div>
+    </div>
+
+    <!-- Texas brokerage disclosures (like a real brokerage site) -->
+    <div class="footer-legal">
+      <a href="https://www.trec.texas.gov/sites/default/files/pdf-forms/CN%201-5_0.pdf" target="_blank" rel="noopener">TREC Consumer Protection Notice</a>
+      <!-- EDIT: link your own eXp Information About Brokerage Services (IABS) PDF -->
+      <a href="https://www.trec.texas.gov/forms/information-about-brokerage-services" target="_blank" rel="noopener">Information About Brokerage Services</a>
+      <span style="font-family:var(--sans);font-size:.74rem;color:rgba(217,210,199,.5);">Equal Housing Opportunity</span>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Jason Aguirre Group. All rights reserved.</span>
+      <span class="legal-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Messaging Terms</a>
+      </span>
+    </div>
+    <p class="disclosure">
+      Jason Aguirre, Licensed Real Estate Agent (REALTOR®), Texas. Brokered by eXp Realty, LLC. Jason Aguirre Group is a team operating under eXp Realty, LLC.
+      All information is deemed reliable but not guaranteed and should be independently reviewed and verified. Featured listings shown are illustrative samples.
+    </p>
+  </div>
+</footer>
+
+<script>
+  // Nav: solidify on scroll
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 40);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  // Mobile menu
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    links.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }));
+
+  // Year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Form — client-side only. Requires name + email; phone & both consents optional.
+  // Replace with your GoHighLevel embedded form / endpoint to capture leads.
+  const form = document.getElementById('leadForm');
+  const success = document.getElementById('formSuccess');
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = document.getElementById('name');
+    const email = document.getElementById('email');
+    let ok = true;
+    [name, email].forEach(f => {
+      const bad = !f.value.trim() || (f.type === 'email' && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(f.value));
+      f.style.borderBottomColor = bad ? '#B45309' : '';
+      if (bad) ok = false;
+    });
+    if (!ok) return;
+    // Honor consent before texting/emailing this contact:
+    // const canText = document.getElementById('smsConsent').checked;
+    // const canEmailOrCall = document.getElementById('contactConsent').checked;
+    form.style.display = 'none';
+    success.classList.add('show');
+    success.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+
+  // Scroll reveal
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+  }, { threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
